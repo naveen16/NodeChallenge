@@ -6,6 +6,7 @@ To access the application visit the following link:
 ### Instructions to Run locally
 
 To run this web application clone the repository and run ```node server```
+You must have NodeJS installed and within that, ************add all packages that need to be installed*********
 
 #### Project Description
 
