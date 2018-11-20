@@ -5,18 +5,26 @@ To access the application visit the following link:
 
 ### Instructions to Run locally
 
-To run this web application clone the repository and run ```node server```
-You must have NodeJS installed and within that, ************add all packages that need to be installed*********
+You must have NodeJS installed
+
+To run this web application clone the repository and run
+```cd NodeChallenge```
+```node server```
+
+Go to:
+```http://localhost:8888```
+
+ 
 
 #### Project Description
 
 This web app has 2 main url paths: /posts and /aboutme
 
-/posts
+```/posts```
 
 This url path makes a request to this url(https://jsonplaceholder.typicode.com/posts) and it formats the data and displays it with EJS.
 
-/aboutme
+```/aboutme```
 
 By default displays the questions and answers required. Also have the option to add a query parameter 
 with ```?q={parameter}``` (without the braces)
