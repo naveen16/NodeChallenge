@@ -17,6 +17,7 @@ This web app has 2 main url paths: /posts and /aboutme
 This url path makes a request to this url(https://jsonplaceholder.typicode.com/posts) and it formats the data and displays it with EJS.
 
 /aboutme
+
 By default displays the questions and answers required. Also have the option to add a query parameter 
 with ```?q={parameter}``` (without the braces)
 
