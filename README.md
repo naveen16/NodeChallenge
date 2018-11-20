@@ -10,7 +10,9 @@ You must have NodeJS installed
 To run this web application clone the repository and run the commands
 
 ```git clone https://github.com/naveen16/NodeChallenge.git```
+
 ```cd NodeChallenge```
+
 ```node server```
 
 Go to:
