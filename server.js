@@ -41,7 +41,6 @@ app.get('/aboutme', function(req, res) {
     queryParams = querystring.parse(url.parse(req.url).search.substring(1))
   if(queryParams == null){
     res.writeHead(200, {'Content-Type': 'application/json'});
-    var params = querystring.parse()
     res.write(JSON.stringify(db))
   }
   else{
