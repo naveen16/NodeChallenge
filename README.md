@@ -1,6 +1,6 @@
 ## Simple NodeJS Web Application
 
-To access the application visit the following link:
+To access the application visit the following link(hosted on aws):
 <a href="http://ec2-18-236-89-7.us-west-2.compute.amazonaws.com:8080/" target="_blank">NodeJS Web App</a>
 
 ### Instructions to Run locally
