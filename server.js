@@ -5,7 +5,13 @@ var express = require('express');
 const request = require('request');
 const querystring = require('querystring')
 
+const expressOasGenerator = require('express-oas-generator');
 var app = express()
+expressOasGenerator.init(app, function(spec) {
+    app.set(spec, 'info.title', 'New Title');
+    app.set(spec, 'paths[\'/path\'].get.parameters[0].example', 2);
+    return spec;
+});
 app.set('view engine', 'ejs');
 
 //dictionary to hold the question and answers for each parameter
