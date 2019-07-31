@@ -72,6 +72,6 @@ function processRequest(){
   return promise
 }
 
-app.listen(process.env.port || 8080, function (err) {
+app.listen(process.env.PORT || 8080, function (err) {
   console.log("Started Server")
 });
