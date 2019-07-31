@@ -72,6 +72,6 @@ function processRequest(){
   return promise
 }
 
-app.listen('naveen-test.herokuapp.com', function (err) {
+app.listen(process.env.port || 8080, function (err) {
   console.log("Started Server")
 });
