@@ -1,7 +1,7 @@
 var http = require('http')
 var url = require('url')
 var ejs = require('ejs')
-var express = require('express');
+const express = require('express');
 const request = require('request');
 const querystring = require('querystring')
 
